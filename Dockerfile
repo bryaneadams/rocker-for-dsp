@@ -5,6 +5,7 @@ LABEL maintainer="Bryan Adams"
 # ------------------------------
 # Install rstanarm and friends
 # ------------------------------
+# This is from Andrew Heiss
 # Docker Hub (and Docker in general) chokes on memory issues when compiling
 # with gcc, so copy custom CXX settings to /root/.R/Makevars and use ccache and
 # clang++ instead
